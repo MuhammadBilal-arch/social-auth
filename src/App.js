@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
 
+import { GoogleButton } from './auth/google';
+import { FacebookButton } from './auth/facebook'
+import { InstagramButton } from './auth/instagram';
+import TwitterLogin from 'react-twitter-login';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div
+      className='min-h-screen bg-gray-400 flex items-center justify-center'
+    >
+      <div className='w-full md:w-1/4 flex flex-col items-center space-y-3'>
+        <GoogleButton  />
+
+        <FacebookButton />
+
+        <InstagramButton  />
+
+        {/* <TwitterLogin/> */}
+
+      </div>
     </div>
   );
 }
