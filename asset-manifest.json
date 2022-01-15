@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/social-auth/static/css/main.03ba9ebd.css",
+    "main.js": "/social-auth/static/js/main.922ba6e4.js",
+    "static/js/787.c5d645ce.chunk.js": "/social-auth/static/js/787.c5d645ce.chunk.js",
+    "index.html": "/social-auth/index.html",
+    "main.03ba9ebd.css.map": "/social-auth/static/css/main.03ba9ebd.css.map",
+    "main.922ba6e4.js.map": "/social-auth/static/js/main.922ba6e4.js.map",
+    "787.c5d645ce.chunk.js.map": "/social-auth/static/js/787.c5d645ce.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03ba9ebd.css",
+    "static/js/main.922ba6e4.js"
+  ]
+}
